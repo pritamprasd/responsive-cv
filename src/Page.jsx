@@ -38,7 +38,7 @@ export default function Page() {
       <TechSkills skills={data['tech_stack'] || []} />
       <WorkExperience companies={data['work_experience'] || []} />
       <Projects projects={data['projects'] || []} />
-      <Certifications certs={data['cert'] || []} />
+{/*       <Certifications certs={data['cert'] || []} /> */}
       <Education schools={data['education'] || []} />
     </div>
   );
