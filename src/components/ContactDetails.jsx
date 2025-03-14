@@ -7,8 +7,8 @@ export default function ContactDetails({details}) {
             {/* <!-- https://html-css-js.com/html/character-codes/ --> */}
             <div className="header-text">Contact</div>
             <div className="contact-details-content body-content">
-                <div>📧 <a href={'mailto:' + details['mail']}>{details['mail']}</a></div>
-                <div>📲 {details['phone']}</div>
+                <div><a href={'mailto:' + details['mail']}>{details['mail']}</a></div>
+                <div>{details['phone']}</div>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path
@@ -24,7 +24,6 @@ export default function ContactDetails({details}) {
                         <circle cx="4" cy="4" r="2"></circle>
                     </svg> <a href={'https://www.linkedin.com/in/' + details['linkedin']}>{details['linkedin']}</a>
                 </div>
-                <div>💻 <a href={'https://'+ details['website']}>{details['website']}</a></div>
             </div>
             <hr className='line'/>
         </div>

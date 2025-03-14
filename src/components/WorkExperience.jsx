@@ -25,7 +25,7 @@ function Company({company}){
                 </div>
             </div>
             <ul className='company-content'>
-                {company['desc'].map(d => <li key={d}>{d}</li>)}
+                {company['desc'].map(d => <li key={d} dangerouslySetInnerHTML={{ __html: d }}/>)}
             </ul>            
         </div>
     );

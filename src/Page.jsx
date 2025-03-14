@@ -26,7 +26,7 @@ export default function Page() {
       .then(yaml => {
         const json = jsyaml.load(yaml);
         setdata(json);
-        // console.log(json);
+        console.log(json);
       })
       .catch(e => console.log(`Error: ${e}`))
   }, []);
