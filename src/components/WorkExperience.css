@@ -27,6 +27,7 @@
 .role_name{
     font-size: smaller;
     opacity: 0.8;
+    font-weight: bolder;
 }
 
 .place-and-date{
@@ -35,6 +36,7 @@
     font-size: x-small;
     margin-left: auto;
     align-items: flex-end;
+    font-weight: bolder;
 }
 
 .company-content{

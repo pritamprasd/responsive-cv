@@ -3,7 +3,7 @@ import ContactDetails from './components/ContactDetails';
 import WorkExperience from './components/WorkExperience';
 import { NameHeader } from './components/NameHeader';
 import './Page.css';
-import Projects from './components/Projects';
+// import Projects from './components/Projects';
 import Education from './components/Education';
 import TechSkills from './components/TechSkills';
 // import Certifications from './components/Certification';
@@ -37,7 +37,7 @@ export default function Page() {
       <ContactDetails details={data['contact'] || {}}/>
       <TechSkills skills={data['tech_stack'] || []} />
       <WorkExperience companies={data['work_experience'] || []} />
-      <Projects projects={data['projects'] || []} />
+      {/* <Projects projects={data['projects'] || []} /> */}
 {/*       <Certifications certs={data['cert'] || []} /> */}
       <Education schools={data['education'] || []} />
     </div>

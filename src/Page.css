@@ -1,17 +1,23 @@
 .page{
     display: grid;
     grid-template-columns: 6fr 1fr 2fr;
-    grid-template-areas:    "intro     intro   contact"
-                            "intro     intro   contact"                                 
-                            "work      work    work"
-                            "cert      cert    cert"
-                            "education skills  skills"
-                            "projects  skills  skills";
-                          
+    grid-template-areas:    "intro      intro   intro    contact"
+                            "work       work    work     work"
+                            "skills     skills  skills   skills"
+                            "education education  education   education";
     /* gap: 0.5rem; */
     padding: 0.75rem;
     width: 100vw;
     max-width: 210mm;
+}
+
+.skillset-div{
+    display: flex;
+    padding-left: 1rem;
+}
+
+.skillset{
+    padding: 0.25rem;
 }
 
 @media screen and (max-width: 600px) {

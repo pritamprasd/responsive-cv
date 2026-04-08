@@ -17,8 +17,8 @@ function Company({company}){
         <div className='company'>
             <div className='company-header'>
                 <div className='company-name'>{company['org_name']} </div>
-                <div className='org_name'>| {company['dept']} </div>
-                <div className='role_name'>| {company['role']} </div>
+                <div className='org_name'> | {company['dept']} </div>
+                <div className='role_name'> | {company['role']} </div>
                 <div className='place-and-date'>
                     <div className='place'>{company['location']}</div>
                     <div className='date'>{company['from']} - {company['to']}</div>
